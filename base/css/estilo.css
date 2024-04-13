@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    position: relative;
+    background-color: #0000FF;
+    min-height: 100px;
+    color: #fff;
+
+    h1{
+        float: left;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+
+    nav{
+        float: right;
+        position: absolute;
+        right: 3%;
+        top: 40%;
+    }
+
+    .link{
+        display: inline;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+}
+
+#conteudo{
+    clear: both;
+}
