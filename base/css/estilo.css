@@ -9,6 +9,10 @@
     background-color: #0000FF;
     min-height: 100px;
     color: #fff;
+    background-image: url("../img/banner-1280×640.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h1{
         float: left;
