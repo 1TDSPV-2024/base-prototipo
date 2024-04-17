@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    position: relative;
+    background-color: #0000ff;
+    min-height: 100px;
+    color: #fff;
+    background-image: url("../img/banner-1280×640.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1{
+        float: left;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+
+    nav{
+        float: right;
+        position: absolute;
+        right: 20%;
+        top: 5%;
+    }
+
+    .link{
+        display: inline;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+#conteudo{
+    clear: both;
+}
