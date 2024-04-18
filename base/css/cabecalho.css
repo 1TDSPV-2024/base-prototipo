@@ -19,6 +19,8 @@
     width: 100px;
     color: black;
     padding-right: 300px;
+    padding-top: 30px;
+    color: #fff;
 
     
 }
@@ -28,6 +30,8 @@
     width: 100px;
     color: #fff;
     margin-right: -50px;
+    padding-top: 30px;
+    
     
     
 }
@@ -37,6 +41,7 @@
     min-height: 100px;
     width: 100px;
     color: #fff;
+    padding-top: 30px;
     
 }
 
@@ -45,6 +50,7 @@
     width: 100px;
     color: #fff;
     margin-left: -50px;
+    padding-top: 30px;
     
 }
 
@@ -60,11 +66,14 @@
 
 .fundo{
     background-image: url(../img/banner-1280×640.png);
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    padding: 2rem 1.5rem;
     max-width: 100wh;
     padding: 0;
     width: 100%;
-    w
+    margin-top: -20px;
+
 
 }
