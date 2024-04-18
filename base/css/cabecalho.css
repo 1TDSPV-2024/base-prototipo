@@ -34,35 +34,19 @@
 
 .box1{
     background-color: transparent;
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     
 }
 .box2{
     background-color: transparent;
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;   
+    
 }
 
 .box3{
+    background-color: transparent;
+    
+}
+
+/*.box3{
     background-color: transparent;
     width: 40px;
     height: 40px;
@@ -75,7 +59,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;   
-}
+}*/
 
 
 
