@@ -7,6 +7,9 @@
 #cabecalho{
 
     font-family: 'Times New Roman', Times, serif;
+    background-image: url("../img/banner-1280×640.png");
+    max-width: 100%;
+    height: 640px;
 }
 
 
