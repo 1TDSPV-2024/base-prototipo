@@ -7,12 +7,42 @@
 #cabecalho{
 
     font-family: 'Times New Roman', Times, serif;
+    
     background-image: url("../img/banner-1280×640.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 100%;
     height: 640px;
+    filter: grayscale(100%); /* imagem pode ficar mais opaca*/
+    align-items: top;
+    position: relative;
+    background-color: #1E2636;
+    color: white;
 }
+/*
+    h1{
+        float: left;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
 
+    nav{
+        float: right;
+        position: absolute;
+        right: 3%;
+        top: 40%;
+    }
 
+    .link{
+        display: inline;
+        a{
+            text-decoration: nome;
+            color: white;
+        }
+    }
+*/
 .box{
     min-height: 20px;
     width: 100px;
@@ -21,6 +51,8 @@
 
 .box1{
     background-color: white;
+    float: top;
+    align-items: left;
 }
 
 .box2{
