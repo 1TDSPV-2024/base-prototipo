@@ -1,0 +1,14 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+#help {
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    width: 500px;
+    padding: 20px;
+
+}
