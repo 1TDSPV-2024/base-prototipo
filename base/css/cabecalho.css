@@ -26,17 +26,19 @@
 
     
 }
-
 .box2{
     min-height: 100px;
-    width: 100px;
+    max-width: 6%;
     color: #fff;
-    margin-right: -50px;
-    padding-top: 30px;
-    
+    padding-top: 25px;
+    margin-left: 9cm;
     
     
 }
+
+    
+    
+
 
 .box3{
     
