@@ -43,10 +43,11 @@
 .box3{
     
     min-height: 100px;
+    max-width: 5%;
     width: 100px;
     color: #fff;
     padding-top: 30px;
-    
+    margin-left: 2cm;
 }
 
 .box4{
