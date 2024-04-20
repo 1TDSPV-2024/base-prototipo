@@ -52,10 +52,10 @@
 
 .box4{
     min-height: 100px;
-    width: 100px;
-    color: #fff;
-    margin-left: -50px;
-    padding-top: 30px;
+    padding-top: 15px;
+    max-width: 7%;
+    background-color: transparent;
+    margin-left: 2cm;
     
 }
 
