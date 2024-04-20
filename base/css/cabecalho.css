@@ -83,3 +83,9 @@
 
 
 }
+
+.box img {     
+    max-width: 90%;
+    background-color: transparent;
+
+}
