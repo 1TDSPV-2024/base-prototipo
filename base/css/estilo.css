@@ -6,9 +6,21 @@ body {
 
 #help {
     position: fixed;
-    top: 200px;
+    top: 115px;
     left: 20px;
     width: 500px;
     padding: 20px;
 
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.text{
+    width: 130%;
+    margin: auto 0;
+}
+
