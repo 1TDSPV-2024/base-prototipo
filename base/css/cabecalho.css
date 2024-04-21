@@ -1,20 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#cabecalho{
-
+#cabecalho {
     /* font-family: "Roboto",sans-serif;
     font-weight: 500; */
-    font-family: 'Roboto',sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-
-
-.box1{
+.box1 {
     font-size: 35px;
     min-height: 100px;
     width: 100px;
@@ -22,70 +18,56 @@
     padding-right: 300px;
     padding-top: 10px;
     color: #fff;
-    margin-left: 3cm;
-
-    
+    margin-left: 118px; /* 3cm to pixels */
 }
-.box2{
+
+.box2 {
     min-height: 100px;
-    max-width: 6%;
+    max-width: 96px; /* 6% to pixels */
     color: #fff;
     padding-top: 25px;
-    margin-left: 9cm;
-    
-    
+    margin-left: 342px; /* 9cm to pixels */
 }
 
-    
-    
-
-
-.box3{
-    
+.box3 {
     min-height: 100px;
-    max-width: 5%;
+    max-width: 80px; /* 5% to pixels */
     width: 100px;
     color: #fff;
     padding-top: 30px;
-    margin-left: 2cm;
+    margin-left: 79px; /* 2cm to pixels */
 }
 
-.box4{
+.box4 {
     min-height: 100px;
     padding-top: 15px;
-    max-width: 7%;
+    max-width: 112px; /* 7% to pixels */
     background-color: transparent;
-    margin-left: 2cm;
-    
+    margin-left: 79px; /* 2cm to pixels */
 }
 
-
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 20px;
     width: 100%;
     align-items: center;
-
 }
 
-.fundo{
+.fundo {
     background-image: url(../img/banner-1280×640.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 2rem 1.5rem;
-    max-width: 100wh;
+    max-width: 100vw; /* 100wh to 100vw */
     padding: 0;
     width: 100%;
     margin-top: -20px;
-
-
 }
 
-.box img {     
+.box img {
     max-width: 90%;
     background-color: transparent;
-
 }
