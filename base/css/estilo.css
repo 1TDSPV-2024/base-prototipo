@@ -30,7 +30,8 @@ body {
   }
 
   .about {
-    .imagem {
+  .imagem {
+      bottom: 10px;
       float: right;
       position: relative;
       right: 5%;
