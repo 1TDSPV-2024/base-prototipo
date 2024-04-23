@@ -21,7 +21,8 @@ body {
   font-weight: 100;
   font-style: normal;
 
-  h2 {
+  h2 { font-size: 50px ;
+    height: 60px;
     padding: 5px;
     font-weight: 700;
     font-style: normal;
