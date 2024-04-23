@@ -1,42 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#cabecalho{
+#cabecalho {
+  position: relative;
+  background-color: #0000ff;
+  min-height: 100px;
+  color: #fff;
+  background-image: url("../img/banner-1280×640.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  h1 {
+    float: left;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+
+  nav {
+    float: right;
+    position: absolute;
+    right: 20%;
+    top: 5%;
+  }
+
+  .link {
+    display: inline;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+#conteudo {
+  display: flex;
+  width: 50%;
+  color: #fff;
+  background-color: #1e2836;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+  h2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: flex-start;
+  }
+
+  .about {
+    .imagem {
+      float: right;
+      position: relative;
+      top: 10%;
+      right: 10%;
+    }
+  }
+
+  .button {
+    float: right;
     position: relative;
-    background-color: #0000ff;
-    min-height: 100px;
-    color: #fff;
-    background-image: url("../img/banner-1280×640.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    h1{
-        float: left;
-        position: absolute;
-        top: 30%;
-        left: 5%;
-    }
-
-    nav{
-        float: right;
-        position: absolute;
-        right: 20%;
-        top: 5%;
-    }
-
-    .link{
-        display: inline;
-        a{
-            text-decoration: none;
-            color: #fff;
-        }
-    }
-}
-
-#conteudo{
-    clear: both;
+    right: 15%;
+    border-radius: 5px;
+  }
 }
