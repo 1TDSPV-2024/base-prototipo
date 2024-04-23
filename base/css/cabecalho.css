@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-#cabecalho {
-    /* font-family: "Roboto",sans-serif;
-    font-weight: 500; */
+.container h1 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .box1 {
