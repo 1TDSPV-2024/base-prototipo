@@ -20,3 +20,15 @@ footer {
     align-items: center;
     padding: 1em;
 }
+
+.rodape__lista__item{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: solid 0.3em white;
+    padding: 0.5em;
+    border-radius: 10px;
+    align-items: center;
+    gap: 0.5em;
+}
