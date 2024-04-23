@@ -1,19 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
+ 
 }
-
+ 
 #help {
     display: flex;
     flex-direction: column;
@@ -22,32 +21,33 @@ body {
     top: 115px;
     left: 0px;
     width: 50%;
+    height: 480px;
     padding: 20px;
     background-color: #324054;
     color: white;
 }
-
+ 
 .title-help {
     font-family: 'Roboto';
     font-size: 60px;
     position: relative;
     left: -15px;
 }
-
+ 
 .icone-help {
-    position: absolute;
-    left: 500px;
-    
+    position: relative;
+    top: -20px;
+    left: 800px;
 }
-
+ 
 .container-help {
     position: relative;
     left: 50%;
 }
-
+ 
 .text-help {
     margin: auto 0;
     color: white;
-    font-size: 17px;
+    font-size: 23px;
     font-family: 'Roboto';
 }
