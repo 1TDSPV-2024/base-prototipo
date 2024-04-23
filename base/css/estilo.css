@@ -31,14 +31,14 @@ body {
   }
 
   .about {
-    .imagem {
+    .img-about {
       bottom: 10px;
       float: right;
       position: relative;
       right: 5%;
     }
 
-    .text {
+    .text-about {
       padding: 20px;
       font-weight: 100;
       font-style: normal;
