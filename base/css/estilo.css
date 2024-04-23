@@ -1,43 +1,45 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#cabecalho{
-    position: relative;
-    background-color: #0000FF;
-    min-height: 100px;
-    color: #fff;
-    background-image: url("../img/banner-1280×640.png.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    h1{
-        float: left;
-        position: absolute;
-        top: 30%;
-        left: 5%;
-    }
-
-    nav{
-        float: right;
-        position: absolute;
-        right: 3%;
-        top: 40%;
-    }
-
-    .link{
-        display: inline;
-        a{
-            text-decoration: none;
-            color: #fff;
-        }
-    }
-
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#conteudo{
-    clear: both;
+#container-about {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #fff;
+  background-color: #1e2836;
+  font-weight: 100;
+  font-style: normal;
+
+  h2 {
+    padding: 5px;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .about {
+    .imagem {
+      float: right;
+      position: relative;
+      right: 5%;
+    }
+
+    .text {
+      padding: 10px;
+      font-weight: 100;
+      font-style: normal;
+    }
+  }
 }
