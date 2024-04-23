@@ -8,3 +8,8 @@
     font-family: "Roboto";
     background-color: #1f2837;
 }
+footer{
+    position: relative;
+    background-color: #1f2837;
+    padding: 1em;
+}
