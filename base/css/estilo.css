@@ -39,3 +39,12 @@ a{
     align-items: center;
     gap: 0.3em;
 }
+.logos__rodape{
+    width: 2em;
+}
+
+.copyright__text{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
