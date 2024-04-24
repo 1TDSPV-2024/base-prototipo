@@ -13,12 +13,12 @@
  - [ ] Linha dividindo o contéudo Help  do conteúdo About
  - [ ] Conteúdo sobre (About), com ícone e descrição.
  * História da Empresa
- - [ ] Um botão com o texto Mais...  para direcionar  ao restante do conteúdo na página about.
+ - [ ] Um botão com o texto Mais...  para direcionar  ao restante do conteúdo na página about
  ## Lado direito da seção de conteúdo:
  - [ ] Formulário de Contato com `nome-completo`, `email` e `mensagem`
  - [ ] Botões enviar e limpar formulário
  ## Avançado
-  - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
-  - [ ] Adicionar uma cor vermelha ao texto.
+  - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório
+  - [ ] Adicionar uma cor vermelha ao texto
 
 
