@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #1B2636; /* Cor de fundo atualizada */
+    background-color: #1B2636;
     color: #fff;
     display: flex;
     align-items: center;
@@ -24,28 +24,28 @@ body {
   .form-field {
     background-color: #fff;
     color: #d2d0d0;
-    margin-bottom: 5px; /* Margem reduzida */
+    margin-bottom: 5px; 
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     display: block;
     width: 300px;
-    height: 20px; /* Simula a altura do input */
+    height: 20px; 
   }
   
   .mandatory {
-    color: #e74c3c; /* Cor vermelha para campos obrigatórios */
-    font-size: 12px; /* Tamanho de fonte menor */
-    margin-bottom: 15px; /* Margem para separar do próximo campo */
+    color: #e74c3c; 
+    font-size: 12px; 
+    margin-bottom: 15px; 
     text-align: left;
   }
   
   .submit-button {
     display: block;
-    width: 150px; /* Largura reduzida */
-    padding: 8px; /* Preenchimento reduzido */
-    margin: 15px auto; /* Centraliza o botão horizontalmente */
-    background-color: #1B2636; /* Cor do botão atualizada */
+    width: 150px; 
+    padding: 8px; 
+    margin: 15px auto; 
+    background-color: #1B2636; 
     color: #fff;
     text-align: center;
     border-radius: 4px;
