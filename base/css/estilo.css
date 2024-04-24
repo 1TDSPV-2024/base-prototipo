@@ -13,7 +13,82 @@ body {
   padding: 0;
 }
 
-/*Cabecalho*/
+#container-about {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  color: #fff;
+  background-color: #1e2836;
+}
+
+.h2 {
+    font-size: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.img-about {
+      bottom: 10px;
+      float: right;
+      position: relative;
+      right: 5%;
+    }
+
+.text-about {
+      padding: 20px;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+    }
+
+ 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+#help {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    left: 0px;
+    width: 50%;
+    height: 420px;
+    padding: 20px;
+    background-color: #1e2836;
+    color: white;
+}
+ 
+.title-help {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: -15px;
+}
+ 
+.icone-help {
+    position: relative;
+    top: -20px;
+    left: 800px;
+}
+ 
+.container-help {
+    position: relative;
+    left: 50%;
+}
+ 
+.text-help {
+    margin: auto 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
 
 .container h1 {
     font-family: 'Roboto', sans-serif;
