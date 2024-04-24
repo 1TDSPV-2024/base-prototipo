@@ -1,3 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container-about {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  color: #fff;
+  background-color: #1e2836;
+
+  h2 {
+    font-size: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .about {
+    .img-about {
+      bottom: 10px;
+      float: right;
+      position: relative;
+      right: 5%;
+    }
+
+    .text-about {
+      padding: 20px;
+      font-weight: 100;
+      font-style: normal;
+    }
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500&display=swap');
 
@@ -50,7 +99,7 @@ body {
     color: white;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-=======
+
 }
 
 .container h1 {
@@ -119,3 +168,4 @@ body {
     max-width: 90%;
     background-color: transparent;
 }
+
