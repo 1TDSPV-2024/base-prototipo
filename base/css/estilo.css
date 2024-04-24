@@ -56,8 +56,12 @@ body {
 }
 
 .botao {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font: bold;
   display: block;
-  width: 150px; 
+  width: 324px; 
+  height: 86px;
   padding: 8px; 
   margin: 15px auto; 
   background-color: #1B2636; 
