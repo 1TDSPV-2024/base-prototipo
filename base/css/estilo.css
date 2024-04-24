@@ -235,3 +235,52 @@ body {
 
 
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Roboto";
+    background-color: #1f2837;
+}
+
+footer {
+    position: relative;
+    background-color: #1f2837;
+    padding: 1em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.rodape__lista__item{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: solid 0.3em white;
+    padding: 0.5em;
+    border-radius: 10px;
+    align-items: center;
+    gap: 0.5em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.logos__rodape{
+    width: 2em;
+}
+
+.copyright__text{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
